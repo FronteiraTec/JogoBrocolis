@@ -1,6 +1,6 @@
 # Jogo 2D
 
-Usar a versão 4.6.1f1 (disponível para download no site da unity, na seção Versões Antigas.)
+Usar a versão 4.6.3p1 (disponível para download no site da unity, na seção Versões Antigas.)
 
 Projeto de jogo 2D da célula de Games:
 - Jogo de Plataforma
