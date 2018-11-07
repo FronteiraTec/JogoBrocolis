@@ -1,24 +1,24 @@
 ﻿using UnityEngine;
 using System.Collections;
-using UnityStandardAssets._2D;
+using JogoBrocolis.FTec;
 
-public class PowerUpScript : MonoBehaviour {
+namespace JogoBrocolis.FTec {
+  public class PowerUpScript : MonoBehaviour {
 
-	HUDScript hud;
-	AudioSource test;
+    HUDScript hud;
+    AudioSource test;
 
-	void OnTriggerEnter2D(Collider2D other)
-	{
-		if (other.tag == "Player") 
-		{
+    void OnTriggerEnter2D(Collider2D other) {
+      if(other.tag == "Player") {
 
-            //very ineficient
-            hud = GameObject.Find("Main Camera").GetComponent<HUDScript>();
-			hud.IncreaseScore(10);
+        //very ineficient
+        hud = GameObject.Find("Main Camera").GetComponent<HUDScript>();
+        hud.IncreaseScore(10);
 
-			test = GameObject.Find("SomCoin").GetComponent<AudioSource>();
-			test.Play ();
-			Destroy (this.gameObject);
-		}
-	}
+        test = GameObject.Find("SomCoin").GetComponent<AudioSource>();
+        test.Play();
+        Destroy(this.gameObject);
+      }
+    }
+  }
 }
