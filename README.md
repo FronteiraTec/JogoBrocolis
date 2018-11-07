@@ -10,8 +10,8 @@ Projeto de jogo 2D da célula de Games:
 Participantes:
 - Eduardo Mendes: programador
 - Lucas Jaenisch: ilustrador
+- Matheus Vieira dos Reis: ilustrador
 - Othon Areas: efeitos sonoros/programador
-
 
 --------------------
 
