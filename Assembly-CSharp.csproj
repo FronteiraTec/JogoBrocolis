@@ -61,6 +61,7 @@
      <Compile Include="Assets\Scripts\Restarter.cs" />
      <Compile Include="Assets\Scripts\SpawnScript.cs" />
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+     <None Include="Assets\AssetsMatheus\ramdomtxt.txt" />
      <None Include="Assets\Standard Assets\Cameras\CameraGuidelines.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
