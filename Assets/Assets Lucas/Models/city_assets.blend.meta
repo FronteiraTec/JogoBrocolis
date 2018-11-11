@@ -1,0 +1,181 @@
+fileFormatVersion: 2
+guid: e369bd2ab8ddef64d8b7f389fc99aec7
+timeCreated: 1541784858
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: ArvorePalm
+    100002: ArvorePontuda
+    100004: ArvoreRedonda
+    100006: Banquinho
+    100008: Cal_ada
+    100010: //RootNode
+    100012: Comodo
+    100014: FaixadaLoja
+    100016: FaixadaPredio
+    100018: Loja
+    100020: Marquize
+    100022: Nuvem
+    100024: Nuvem_001
+    100026: PortaDireita
+    100028: PortaDireita_001
+    100030: PortaDireita_002
+    100032: Poste
+    100034: Predio
+    100036: Rua
+    100038: RuaBuraco
+    100040: Teto
+    400000: ArvorePalm
+    400002: ArvorePontuda
+    400004: ArvoreRedonda
+    400006: Banquinho
+    400008: Cal_ada
+    400010: //RootNode
+    400012: Comodo
+    400014: FaixadaLoja
+    400016: FaixadaPredio
+    400018: Loja
+    400020: Marquize
+    400022: Nuvem
+    400024: Nuvem_001
+    400026: PortaDireita
+    400028: PortaDireita_001
+    400030: PortaDireita_002
+    400032: Poste
+    400034: Predio
+    400036: Rua
+    400038: RuaBuraco
+    400040: Teto
+    2300000: ArvorePalm
+    2300002: ArvorePontuda
+    2300004: ArvoreRedonda
+    2300006: Banquinho
+    2300008: Cal_ada
+    2300010: Comodo
+    2300012: FaixadaLoja
+    2300014: FaixadaPredio
+    2300016: Loja
+    2300018: Marquize
+    2300020: Nuvem
+    2300022: Nuvem_001
+    2300024: PortaDireita
+    2300026: PortaDireita_001
+    2300028: PortaDireita_002
+    2300030: Poste
+    2300032: Predio
+    2300034: Rua
+    2300036: RuaBuraco
+    2300038: Teto
+    3300000: ArvorePalm
+    3300002: ArvorePontuda
+    3300004: ArvoreRedonda
+    3300006: Banquinho
+    3300008: Cal_ada
+    3300010: Comodo
+    3300012: FaixadaLoja
+    3300014: FaixadaPredio
+    3300016: Loja
+    3300018: Marquize
+    3300020: Nuvem
+    3300022: Nuvem_001
+    3300024: PortaDireita
+    3300026: PortaDireita_001
+    3300028: PortaDireita_002
+    3300030: Poste
+    3300032: Predio
+    3300034: Rua
+    3300036: RuaBuraco
+    3300038: Teto
+    4300000: RuaBuraco
+    4300002: PortaDireita_002
+    4300004: PortaDireita_001
+    4300006: Cal_ada
+    4300008: ArvorePalm
+    4300010: Loja
+    4300012: Poste
+    4300014: ArvorePontuda
+    4300016: ArvoreRedonda
+    4300018: Rua
+    4300020: Nuvem
+    4300022: Nuvem_001
+    4300024: FaixadaLoja
+    4300026: FaixadaPredio
+    4300028: Predio
+    4300030: Marquize
+    4300032: Teto
+    4300034: Comodo
+    4300036: PortaDireita
+    4300038: Banquinho
+    7400000: Default Take
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
