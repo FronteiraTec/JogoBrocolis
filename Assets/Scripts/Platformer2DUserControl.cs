@@ -41,7 +41,7 @@ namespace JogoBrocolis.FTec
             //float h = CrossPlatformInputManager.GetAxis("Horizontal");
             // Pass all parameters to the character control script.
 			      //in m_Character 1 equals player is always moving forward, false means player cant crouch
-            m_Character.Move(1, false, m_Jump, m_Chomp);
+            m_Character.Move(1, m_Jump, m_Chomp);
             m_Jump = false;
             m_Chomp = false;
         }

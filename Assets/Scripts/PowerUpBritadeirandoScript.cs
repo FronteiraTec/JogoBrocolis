@@ -17,7 +17,7 @@ namespace JogoBrocolis.FTec {
         test = GameObject.Find("SomCoin").GetComponent<AudioSource>();
         test.Play();
         Destroy(this.gameObject);
-      }
+      } 
     }
   }
 }

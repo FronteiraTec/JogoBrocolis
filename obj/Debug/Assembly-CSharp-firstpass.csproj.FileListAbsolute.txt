@@ -26,6 +26,8 @@ C:\Unity Projects\JogoBrocolis\Temp\bin\Debug\nunit.framework.xml
 C:\Unity Projects\JogoBrocolis\Temp\bin\Debug\UnityEngine.Analytics.xml
 C:\Unity Projects\JogoBrocolis\Temp\bin\Debug\UnityEngine.HoloLens.xml
 C:\Unity Projects\JogoBrocolis\Temp\bin\Debug\UnityEngine.VR.xml
-C:\Unity Projects\JogoBrocolis\obj\Debug\Assembly-CSharp-firstpass.csprojResolveAssemblyReference.cache
 C:\Unity Projects\JogoBrocolis\obj\Debug\Assembly-CSharp-firstpass.dll
 C:\Unity Projects\JogoBrocolis\obj\Debug\Assembly-CSharp-firstpass.pdb
+C:\Unity Projects\JogoBrocolis\obj\Debug\Assembly-CSharp-firstpass.csprojAssemblyReference.cache
+C:\Unity Projects\JogoBrocolis\obj\Debug\Assembly-CSharp-firstpass.csproj.CoreCompileInputs.cache
+C:\Unity Projects\JogoBrocolis\obj\Debug\Assembly-CSharp-firstpass.csproj.CopyComplete
