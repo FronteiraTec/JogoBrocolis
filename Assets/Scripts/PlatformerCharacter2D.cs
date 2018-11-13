@@ -101,7 +101,8 @@ namespace JogoBrocolis.FTec {
         }
       }
 
-      Debug.Log(m_Anim.GetBool("Chomping"));
+      Debug.Log("Choping  -> " + m_Anim.GetBool("Chomping").ToString() + "\n" + "Ground  -> " + m_Anim.GetBool("Ground").ToString());
+
       if(chomp) {
         if(!ChompingOnCooldown) {
           Chomping = true;
