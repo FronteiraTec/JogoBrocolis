@@ -1,0 +1,161 @@
+fileFormatVersion: 2
+guid: 3219aca2e81c0b341aec6056c39d2227
+timeCreated: 1543357819
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Antena01_L
+    100002: Antena01_R
+    100004: Antena02_L
+    100006: Antena02_R
+    100008: Antena03_L
+    100010: Antena03_R
+    100012: Antena04_L
+    100014: Antena04_R
+    100016: Armature
+    100018: ArmDown_L
+    100020: ArmDown_R
+    100022: ArmuP_L
+    100024: ArmuP_R
+    100026: BodyDown
+    100028: BodyUp
+    100030: //RootNode
+    100032: Cube
+    100034: Foot_L
+    100036: Foot_R
+    100038: FootFingers_L
+    100040: FootFingers_R
+    100042: Hand_L
+    100044: Hand_R
+    100046: HandFingersDown_L
+    100048: HandFingersDown_R
+    100050: HandFingersUp_L
+    100052: HandFingersUp_R
+    100054: HandThumbDown_L
+    100056: HandThumbDown_R
+    100058: HandThumbUp_L
+    100060: HandThumbUp_R
+    100062: LegDown_L
+    100064: LegDown_R
+    100066: LegUp_L
+    100068: LegUp_R
+    100070: Root
+    100072: Shoulder_L
+    100074: Shoulder_R
+    400000: Antena01_L
+    400002: Antena01_R
+    400004: Antena02_L
+    400006: Antena02_R
+    400008: Antena03_L
+    400010: Antena03_R
+    400012: Antena04_L
+    400014: Antena04_R
+    400016: Armature
+    400018: ArmDown_L
+    400020: ArmDown_R
+    400022: ArmuP_L
+    400024: ArmuP_R
+    400026: BodyDown
+    400028: BodyUp
+    400030: //RootNode
+    400032: Cube
+    400034: Foot_L
+    400036: Foot_R
+    400038: FootFingers_L
+    400040: FootFingers_R
+    400042: Hand_L
+    400044: Hand_R
+    400046: HandFingersDown_L
+    400048: HandFingersDown_R
+    400050: HandFingersUp_L
+    400052: HandFingersUp_R
+    400054: HandThumbDown_L
+    400056: HandThumbDown_R
+    400058: HandThumbUp_L
+    400060: HandThumbUp_R
+    400062: LegDown_L
+    400064: LegDown_R
+    400066: LegUp_L
+    400068: LegUp_R
+    400070: Root
+    400072: Shoulder_L
+    400074: Shoulder_R
+    4300000: Cube
+    7400000: Default Take
+    7400002: Chomping
+    7400004: Dancing
+    7400006: Jumping
+    7400008: Running
+    9500000: //RootNode
+    13700000: Cube
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
