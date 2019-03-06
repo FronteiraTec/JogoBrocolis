@@ -16,7 +16,7 @@ namespace JogoBrocolis.FTec {
     }
 
     void Spawn() {
-      //it will instantiate an object from the vector of objects we assign to it
+      //it will instantiate an object from the vector of objects we assign to ita
       Instantiate(obj[Random.Range(0, obj.GetLength(0))], transform.position, Quaternion.identity);
       //and then invoke at a rate of 1 or 2 sec
       Invoke("Spawn", Random.Range(spawnMin, spawnMax));

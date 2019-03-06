@@ -13,10 +13,7 @@ namespace JogoBrocolis.FTec {
       }
 
       if(other.gameObject.transform.parent) {
-        if (other.gameObject.transform.parent.gameObject.name != "LargeCloud") {
-          Destroy(other.gameObject.transform.parent.gameObject);
-        } 
-
+        Destroy(other.gameObject.transform.parent.gameObject);
       } else {
         Destroy(other.gameObject);
       }

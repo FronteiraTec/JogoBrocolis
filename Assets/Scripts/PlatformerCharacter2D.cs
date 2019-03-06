@@ -4,11 +4,10 @@ using System.Collections;
 
 namespace JogoBrocolis.FTec {
   public class PlatformerCharacter2D : MonoBehaviour {
-    [SerializeField] private float m_MaxSpeed = 10f;                    // The fastest the player can travel in the x axis.
+    [SerializeField] private float m_MaxSpeed = 16f;                    // The fastest the player can travel in the x axis.
     [SerializeField] private float m_JumpForce = 400f;                  // Amount of force added when the player jumps.
     [SerializeField] private bool m_AirControl = false;                 // Whether or not a player can steer while jumping;
     public LayerMask groundLayer;
-
 
     private bool m_Grounded;            // Whether or not the player is grounded.
     private Animator m_Anim;            // Reference to the player's animator component.
@@ -19,6 +18,8 @@ namespace JogoBrocolis.FTec {
     private bool ChompingOnCooldown = false;
 
     private bool Britadeirando = false;
+
+    public GameObject toxicExplosion;
 
     bool doubleJump = false;
 
@@ -31,14 +32,18 @@ namespace JogoBrocolis.FTec {
     }
 
     public void setBritadeirando() {
+      var renderer = GameObject.Find("BrocolisPlayer").GetComponentInChildren<SkinnedMeshRenderer>();
+      renderer.material = GameObject.Find("MaterialPowerUpRenderer").GetComponent<SkinnedMeshRenderer>().material;
       Britadeirando =  true;
       StartCoroutine("waitTimeBritadeirando");
+      StartCoroutine("powerActive");
     }
 
     private void Awake() {
       // Setting up references.
       m_Anim = GetComponent<Animator>();
       m_Rigidbody2D = GetComponent<Rigidbody2D>();
+      StartCoroutine("increaseSpeed");
     }
 
     private void FixedUpdate() {
@@ -101,8 +106,6 @@ namespace JogoBrocolis.FTec {
         }
       }
 
-      Debug.Log("Choping  -> " + m_Anim.GetBool("Chomping").ToString() + "\n" + "Ground  -> " + m_Anim.GetBool("Ground").ToString());
-
       if(chomp) {
         if(!ChompingOnCooldown) {
           Chomping = true;
@@ -110,7 +113,17 @@ namespace JogoBrocolis.FTec {
           StartCoroutine("waitTimeChomp");
           StartCoroutine("waitTimeChompCooldown");
           m_Anim.SetBool("Chomping", chomp);
+          GameObject.Find("Chomping").GetComponent<AudioSource>().Play();
+
         }
+      }
+    }
+
+    private IEnumerator increaseSpeed() {
+      yield return new WaitForSeconds(10);
+      m_MaxSpeed = m_MaxSpeed + 1;
+      if (m_MaxSpeed < 30) {
+        StartCoroutine("increaseSpeed");
       }
     }
 
@@ -125,8 +138,18 @@ namespace JogoBrocolis.FTec {
       ChompingOnCooldown = false;
     }
 
+    private IEnumerator powerActive() {
+      yield return new WaitForSeconds(1);
+      Instantiate(toxicExplosion, transform.position, Quaternion.identity);
+      if (Britadeirando == true) {
+        StartCoroutine("powerActive");
+      }
+    }
+
     private IEnumerator waitTimeBritadeirando() {
       yield return new WaitForSeconds(5);
+      var renderer = GameObject.Find("BrocolisPlayer").GetComponentInChildren<SkinnedMeshRenderer>();
+      renderer.material = GameObject.Find("MaterialBrocolisRenderer").GetComponent<SkinnedMeshRenderer>().material;
       Britadeirando = false;
     }
 
