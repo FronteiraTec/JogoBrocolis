@@ -1,6 +1,6 @@
 # Jogo 2D -> BrocDOOM
 
-Usar a versão 5.6.3p1 (disponível para download no site da unity, na seção Versões Antigas.)
+Usar a versão Unity 2018.3.6f1 (64-bit) (Foi trocado devido a certos bugs na engine que já foram resolvidos nessa versão nova)
 
 Projeto de jogo 2D da célula de Games:
 - Jogo de Plataforma
