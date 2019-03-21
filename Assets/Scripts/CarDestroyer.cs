@@ -14,6 +14,7 @@ namespace JogoBrocolis.FTec {
         var britadeirando = player.getBritadeirando();
 
         if(chomping && britadeirando) {
+          print("card eaten");
           GameObject.Find("Main Camera").GetComponent<HUDScript>().IncreaseScore(100);
           GameObject.Find("Crash").GetComponent<AudioSource>().Play();
           Instantiate(ironExplosion, transform.position, Quaternion.identity);

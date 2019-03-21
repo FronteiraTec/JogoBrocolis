@@ -6,14 +6,11 @@ namespace JogoBrocolis.FTec {
 
     public Transform player;
 
-    // Use this for initialization
-    void Start() {
-
-    }
+    //offsets
 
     // Update is called once per frame
     void Update() {
-      transform.position = new Vector3(player.position.x + 6, 0, -10);
+      transform.position = new Vector3(player.position.x + 6f, 0f, -22f);
     }
   }
 }

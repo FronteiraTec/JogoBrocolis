@@ -93,7 +93,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Material__brocolis_color_001
-    second: {fileID: 2100000, guid: 82ea5adb46ab5c7468828c423c30be28, type: 2}
+    second: {fileID: 2100000, guid: 530701c30d8135049af321ac489f3706, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -160,7 +160,7 @@ ModelImporter:
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 0
+      loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
@@ -173,8 +173,84 @@ ModelImporter:
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
       events: []
-      transformMask: []
-      maskType: 3
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/BodyDown
+        weight: 1
+      - path: Armature/Root/BodyDown/BodyUp
+        weight: 1
+      - path: Armature/Root/BodyDown/BodyUp/Antena01_L
+        weight: 1
+      - path: Armature/Root/BodyDown/BodyUp/Antena01_L/Antena02_L
+        weight: 1
+      - path: Armature/Root/BodyDown/BodyUp/Antena01_L/Antena02_L/Antena03_L
+        weight: 1
+      - path: Armature/Root/BodyDown/BodyUp/Antena01_L/Antena02_L/Antena03_L/Antena04_L
+        weight: 1
+      - path: Armature/Root/BodyDown/BodyUp/Antena01_R
+        weight: 1
+      - path: Armature/Root/BodyDown/BodyUp/Antena01_R/Antena02_R
+        weight: 1
+      - path: Armature/Root/BodyDown/BodyUp/Antena01_R/Antena02_R/Antena03_R
+        weight: 1
+      - path: Armature/Root/BodyDown/BodyUp/Antena01_R/Antena02_R/Antena03_R/Antena04_R
+        weight: 1
+      - path: Armature/Root/BodyDown/Shoulder_L
+        weight: 0
+      - path: Armature/Root/BodyDown/Shoulder_L/ArmuP_L
+        weight: 0
+      - path: Armature/Root/BodyDown/Shoulder_L/ArmuP_L/ArmDown_L
+        weight: 0
+      - path: Armature/Root/BodyDown/Shoulder_L/ArmuP_L/ArmDown_L/Hand_L
+        weight: 0
+      - path: Armature/Root/BodyDown/Shoulder_L/ArmuP_L/ArmDown_L/Hand_L/HandFingersUp_L
+        weight: 0
+      - path: Armature/Root/BodyDown/Shoulder_L/ArmuP_L/ArmDown_L/Hand_L/HandFingersUp_L/HandFingersDown_L
+        weight: 0
+      - path: Armature/Root/BodyDown/Shoulder_L/ArmuP_L/ArmDown_L/Hand_L/HandThumbUp_L
+        weight: 0
+      - path: Armature/Root/BodyDown/Shoulder_L/ArmuP_L/ArmDown_L/Hand_L/HandThumbUp_L/HandThumbDown_L
+        weight: 0
+      - path: Armature/Root/BodyDown/Shoulder_R
+        weight: 0
+      - path: Armature/Root/BodyDown/Shoulder_R/ArmuP_R
+        weight: 0
+      - path: Armature/Root/BodyDown/Shoulder_R/ArmuP_R/ArmDown_R
+        weight: 0
+      - path: Armature/Root/BodyDown/Shoulder_R/ArmuP_R/ArmDown_R/Hand_R
+        weight: 0
+      - path: Armature/Root/BodyDown/Shoulder_R/ArmuP_R/ArmDown_R/Hand_R/HandFingersUp_R
+        weight: 0
+      - path: Armature/Root/BodyDown/Shoulder_R/ArmuP_R/ArmDown_R/Hand_R/HandFingersUp_R/HandFingersDown_R
+        weight: 0
+      - path: Armature/Root/BodyDown/Shoulder_R/ArmuP_R/ArmDown_R/Hand_R/HandThumbUp_R
+        weight: 0
+      - path: Armature/Root/BodyDown/Shoulder_R/ArmuP_R/ArmDown_R/Hand_R/HandThumbUp_R/HandThumbDown_R
+        weight: 0
+      - path: Armature/Root/LegUp_L
+        weight: 0
+      - path: Armature/Root/LegUp_L/LegDown_L
+        weight: 0
+      - path: Armature/Root/LegUp_L/LegDown_L/Foot_L
+        weight: 0
+      - path: Armature/Root/LegUp_L/LegDown_L/Foot_L/FootFingers_L
+        weight: 0
+      - path: Armature/Root/LegUp_R
+        weight: 0
+      - path: Armature/Root/LegUp_R/LegDown_R
+        weight: 0
+      - path: Armature/Root/LegUp_R/LegDown_R/Foot_R
+        weight: 0
+      - path: Armature/Root/LegUp_R/LegDown_R/Foot_R/FootFingers_R
+        weight: 1
+      - path: Cube
+        weight: 1
+      maskType: 0
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
@@ -188,7 +264,7 @@ ModelImporter:
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 0
+      loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
@@ -244,7 +320,7 @@ ModelImporter:
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 0
+      loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
