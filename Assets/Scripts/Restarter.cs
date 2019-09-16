@@ -17,7 +17,11 @@ namespace JogoBrocolis.FTec
     public static void RestartLevel() {
       SceneManager.LoadScene(1);
     }
-
+    
+    public void CallCredits()
+        {
+            SceneManager.LoadScene(3);
+        }
     public void StartLevel() {
       SceneManager.LoadScene(1);
     }
